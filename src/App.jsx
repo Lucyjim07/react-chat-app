@@ -1,7 +1,14 @@
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import './style.css';
+
 const App = () => {
   return (
     <>
-      <h1>Inicio de aplicacion</h1>
+      {/* <Register /> */}
+      {/* <Login /> */}
+      <Home />
     </>
   );
 };
